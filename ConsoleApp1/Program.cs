@@ -17,6 +17,7 @@ namespace ConsoleApp1
             p.Read();
             p.Write();
             p.Correction();
+            p.Final();
             Console.ReadLine();
         }
         public void Display()
@@ -34,6 +35,10 @@ namespace ConsoleApp1
         pubvlic void Correction()
         {
             Console.WriteLine("This is a Correction Method");
+        }
+        public void Final()
+        {
+            Console.WriteLine("This is My Final pushing");
         }
     }
 }
