@@ -16,6 +16,7 @@ namespace ConsoleApp1
             p.Display();
             p.Read();
             p.Write();
+            p.Correction();
             Console.ReadLine();
         }
         public void Display()
@@ -29,6 +30,10 @@ namespace ConsoleApp1
         public void Write()
             {
             Console.WriteLine("This is a Write Method");
+        }
+        pubvlic void Correction()
+        {
+            Console.WriteLine("This is a Correction Method");
         }
     }
 }
