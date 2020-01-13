@@ -20,5 +20,9 @@ namespace ConsoleApp1
         {
             Console.WriteLine("This is a Display method added newly");
         }
+        public void Read()
+        {
+            Console.WriteLine("This is a Read Method");
+        }
     }
 }
