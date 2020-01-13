@@ -14,6 +14,7 @@ namespace ConsoleApp1
             Console.WriteLine("Hello World");
             Console.WriteLine("I am Pratap From bangalore");
             p.Display();
+            p.Read();
             Console.ReadLine();
         }
         public void Display()
