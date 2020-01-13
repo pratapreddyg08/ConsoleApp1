@@ -32,7 +32,7 @@ namespace ConsoleApp1
             {
             Console.WriteLine("This is a Write Method");
         }
-        pubvlic void Correction()
+        public void Correction()
         {
             Console.WriteLine("This is a Correction Method");
         }
