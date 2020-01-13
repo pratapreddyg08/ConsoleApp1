@@ -8,14 +8,17 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static void Main(string[] args)
+        public static  void Main(string[] args)
         {
-            {
-               Console.WriteLine("Hello World");
-                Console.WriteLine("I am Pratap From bangalore");
-                Console.ReadLine();
-
-            }
+            Program p = new Program();
+            Console.WriteLine("Hello World");
+            Console.WriteLine("I am Pratap From bangalore");
+            p.Display();
+            Console.ReadLine();
+        }
+        public void Display()
+        {
+            Console.WriteLine("This is a Display method added newly");
         }
     }
 }
