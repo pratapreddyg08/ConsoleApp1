@@ -15,6 +15,7 @@ namespace ConsoleApp1
             Console.WriteLine("I am Pratap From bangalore");
             p.Display();
             p.Read();
+            p.Write();
             Console.ReadLine();
         }
         public void Display()
@@ -24,6 +25,10 @@ namespace ConsoleApp1
         public void Read()
         {
             Console.WriteLine("This is a Read Method");
+        }
+        public void Write()
+            {
+            Console.WriteLine("This is a Write Method");
         }
     }
 }
